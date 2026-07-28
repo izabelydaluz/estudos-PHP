@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+        <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <div class="home">
+
+        <div class="menu" >
+            <p class="txt"><a href="home.html">Cadastro</a></p>
+            <p class="txt"><a href="visualizar.html">Visualizar</a></p>
+            <p class="txt"><a href="atualizar.html">Atualizar</a></p>
+            <p class="txt" ><a href="deletar.html">Deletar</a></p>
+        </div>
+        <img src="img/estabelecimento.jpg" class="transparente">
+
+        <div class="container">
+
+            <h1 class="titulo" id="titulo">Deletar</h1>
+           
+
+        <form class="form" action="php/delete.php" method="post">
+            <div class="campo">
+                <label>Nome</label>
+                <input  name="v1" id="valor1" type="text">
+            </div>
+
+            <div class="campo">
+                <label>Email</label>
+                <input name="v2" id="valor2" type="text">
+            </div>
+
+            <div class="campo">
+                <label>id</label>
+                <input name="v3" id="valor3" type="text">
+            </div>
+
+            <div class="resultado" id="resultado">Resultado</div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+        </div>
+
+
+
+        
+
+        <div class="rodape">
+            <h2 class="l"> © 2026 jorjinho lanches<br>Instagram | Facebook</h2>
+            
+        </div>
+            
+        
+
+     </div>
+    
+        
+
+
+    
+    
+</body>
+</html>
